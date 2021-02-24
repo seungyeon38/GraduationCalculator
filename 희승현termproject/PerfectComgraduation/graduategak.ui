@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GraduateGak</class>
+ <widget class="QDialog" name="GraduateGak">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>850</width>
+    <height>870</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: transparent;
+background-color: rgb(255, 208, 142);</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_next_2">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>20</y>
+     <width>71</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton_next_2{
+background-color: transparent;
+border-image: url(:right_arrow3.png);
+background: none;
+background-repeat: none;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>200</y>
+     <width>691</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>배달의민족 주아</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:transparent
+</string>
+   </property>
+   <property name="text">
+    <string>1)
+영어능력 : 2000학년도 신입학생
+(2002학년도 이후 일반편입학생 포함)부터 적용한다.
+
+2)
+컴퓨터능력 : 2009학년도부터 인정제도 폐지
+
+3)
+전공과목 영어(원어)강의 의무이수 : 2008학년도 
+신입학생 및 동 학년 편입학생부터 적용한다. 
+
+4)
+한자능력 : 2012학년도 신입학생 및 동 학년 
+편입학생부터 적용한다. </string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>210</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>배달의민족 주아</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: transparent</string>
+   </property>
+   <property name="text">
+    <string>졸업인정제 대상</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>110</y>
+     <width>551</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="menu_logo.qrc">:/memo2.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>pushButton_next_2</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_5</zorder>
+ </widget>
+ <resources>
+  <include location="menu_logo.qrc"/>
+ </resources>
+ <connections/>
+</ui>

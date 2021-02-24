@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Menu_icon.png</file>
+        <file>comgraduation__logo_fffinal.png</file>
+        <file>before_icon.png</file>
+        <file>left_arrow_icon.png</file>
+        <file>right_arrow_icon.png</file>
+        <file>../승연/중대/2학년 2학기/객체지향프로그래밍(OOP)/팀플/borderline.png</file>
+        <file>../승연/중대/2학년 2학기/객체지향프로그래밍(OOP)/팀플/character.png</file>
+        <file>5c06a5c6abde9.png</file>
+        <file>5c06a53de64c4.png</file>
+        <file>bear.png</file>
+        <file>bear1.png</file>
+        <file>bear2.png</file>
+        <file>bear3.png</file>
+        <file>bears.png</file>
+        <file>bears1.png</file>
+        <file>black_underline.png</file>
+        <file>left_arrow3.png</file>
+        <file>party.png</file>
+        <file>return.png</file>
+        <file>right_arrow3.png</file>
+        <file>borderline.png</file>
+        <file>../카카오톡 받은 파일/heart.png</file>
+        <file>../카카오톡 받은 파일/gom.png</file>
+        <file>../login.png</file>
+        <file>../challenge.png</file>
+        <file>../communication1.png</file>
+        <file>../creative.png</file>
+        <file>../trust.png</file>
+        <file>../unite.png</file>
+        <file>../menucircle.png</file>
+        <file>../menu.png</file>
+        <file>../menu1.png</file>
+        <file>../memo.png</file>
+        <file>../memo1.png</file>
+        <file>../memo2.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog_plus2</class>
+ <widget class="QDialog" name="Dialog_plus2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>850</width>
+    <height>870</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: transparent;
+background-color: rgb(255, 208, 142);</string>
+  </property>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>190</y>
+     <width>691</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>배달의민족 주아</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:transparent
+</string>
+   </property>
+   <property name="text">
+    <string>가)
+2012학년도 신입학생 및 동 학년 편입학생부터 적용한다.
+
+나)
+계열별 한자능력 인정 적용기준
+- 자연공학 : 한자급수자격 3급 이상
+
+다) 면제대상
+교내 개설 한자강의 2과목 이상을 이수 
+
+라)
+한자능력 인정요건은 졸업학기 기말고사 전까지
+ 통과하여야 하며 증빙서류 제출은 매 학기 기말고사 
+종료 시까지 소속대학 교학지원팀에 제출하여야 한다. 
+한자능력 증빙서류(자격증)
+유효기간은 취득일로부터 5년 이내에 획득한 자격증에 한한다. </string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>110</y>
+     <width>551</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="menu_logo.qrc">:/memo2.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>200</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>배달의민족 주아</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: transparent</string>
+   </property>
+   <property name="text">
+    <string>한자능력</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_3</zorder>
+ </widget>
+ <resources>
+  <include location="menu_logo.qrc"/>
+ </resources>
+ <connections/>
+</ui>

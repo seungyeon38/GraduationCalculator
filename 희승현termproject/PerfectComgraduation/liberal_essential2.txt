@@ -1,0 +1,6 @@
+liberal_essential COMMUNICATIONINENGLISH 2
+liberal_essential 글쓰기 2
+liberal_essential 창의와소통 2
+liberal_essential 앙트레프레너십시대의회계 2
+liberal_essential 한국사 2
+liberal_essential ACT 2
